@@ -1,18 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         applicationId "darren.gcptts"
         minSdkVersion 24
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         debug{
-            buildConfigField "String", "API_KEY", "\"YOUR_API_KEY\""
+            buildConfigField "String", "API_KEY", "\"AIzaSyCMpLmKnQ5wK2-5lvHRvlpkzXOkQNy-yL4\""
         }
         release {
             minifyEnabled false
